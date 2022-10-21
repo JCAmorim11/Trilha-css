@@ -1,0 +1,27 @@
+/*h1{
+    background: darkblue;
+    color: lightgreen;
+}
+
+div{
+    background: lightblue;
+    color: darkblue;
+}
+
+li {
+    background: lightgreen;
+}
+
+#text-boasVindas{
+    background: red;
+    color: white;
+}*/
+
+.seletor-comum {
+    background: pink;
+    color: darkblue;
+}
+
+.texto-maiusculo{
+    text-transform: uppercase;
+}

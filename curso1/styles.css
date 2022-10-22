@@ -15,7 +15,7 @@ li {
 #text-boasVindas{
     background: red;
     color: white;
-}*/
+}
 
 .seletor-comum {
     background: pink;
@@ -24,4 +24,31 @@ li {
 
 .texto-maiusculo{
     text-transform: uppercase;
+}
+
+*{
+    font-weight: bold;
+}*/
+
+/*atributos especificos
+[title="Netflix"]{
+    color: red;
+}
+[title="Spotify"]{
+    color: lightgreen;
+}
+[title="Prime"]{
+    color: lightblue;
+}
+[title="Disney"]{
+    color: darkblue;
+}
+[title|="Streaming"]{
+    background: lightgray;
+}*/
+[href^="http://"]{
+    background: lightgreen;
+}
+[href*="login"]{
+    background: pink;
 }

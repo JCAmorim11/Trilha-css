@@ -1,0 +1,26 @@
+/*CSS - agrupamento.html*/
+/*h1,
+p,
+div {
+  color: red;
+  background-color: aqua;
+}*/
+
+/*. texto,
+h1,
+#referencia {
+  color: red;
+}
+
+h1,
+[id^="botao"] {
+  background-color: lightblue;
+}*/
+
+/*p.texto {
+  color: blueviolet;
+}*/
+
+.texto.teste {
+  color: lightcoral;
+}

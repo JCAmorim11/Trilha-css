@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Trilha de Css</title>
+    <style>
+     /* li {
+        color: red;
+      }
+      li li {
+        color: green;
+      }
+      #lista1 li {
+        background-color: lightcyan;
+      }*/
+        .fundo-verde li{
+            background-color: lightgreen;
+        }
+        .fundo-azul li {
+            background-color: lightcyan;
+        }
+        li{
+            color: red; 
+        }
+        .fundo-verde #sub1 li{
+            color: black;
+        }
+    </style>
+  </head>
+  <body>
+    <p>Olar</p>
+    <li class="fundo-verde" id="lista1">
+      <div>item 1</div>
+      <ul id="sub1">
+        <li>subA</li>
+        <li>subb</li>
+      </ul>
+    </li>
+    <li class="fundo-verde" id="lista2">
+      <div>item 2</div>
+      <ul id="sub2">
+        <li>subA</li>
+        <li>subb</li>
+      </ul>
+    </li>
+    <li class="fundo-azul" id="lista3">
+      <div>item 3</div>
+      <ul id="sub3">
+        <li>subA</li>
+        <li>subb</li>
+      </ul>
+    </li>
+  </body>
+</html>

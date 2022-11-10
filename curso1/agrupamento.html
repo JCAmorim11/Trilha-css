@@ -6,6 +6,19 @@
     <link rel="stylesheet" href="style1.css" />
     <title>Trilha de Css</title>
   </head>
+  <style>
+
+            .lista{
+                display: flex;
+                flex-direction: row;
+                }
+           .lista li{
+                margin: 1em;
+            }
+           .lista ul{
+               list-style-type: none;
+           }
+  </style>
   <body>
     <h1>Agrupamento de seletores</h1>
     <p class="texto">
@@ -30,6 +43,13 @@
     <button id="botao-fechar">Fechar</button>
 
     <br /><br />
-    <a href="combinadorDesc.html">Proximo exercicio - Combinador descendente</a>
+    <div class="lista">
+        <ul><li>
+                <a href="combinadorDesc.html">Proximo exercicio - Combinador descendente</a></li>
+                        <li>
+                            <a title="original" href="index.html">Lista de exercicios</a>
+                        </li>
+        </ul>
+                </div>
   </body>
 </html>

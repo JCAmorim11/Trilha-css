@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Trilha de Css</title>
     <style>
+    .lista{
+                display: flex;
+                flex-direction: row;
+                }
+           .lista li{
+                margin: 1em;
+                display:inline;
+            }
+           .lista ul{
+               list-style-type: none;
+               display: inline;
+
+           }
+
      /* li {
         color: red;
       }
@@ -26,7 +40,9 @@
         .fundo-verde #sub1 li{
             color: black;
         }
-    </style>
+
+
+                </style>
   </head>
   <body>
     <p>Olar</p>
@@ -51,6 +67,17 @@
         <li>subb</li>
       </ul>
     </li>
-    <a href="combinadorFilho.html"> Proximo exercicio - Combinador Filho</a>
+
+    <div class="lista">
+        <ul>
+            <li>
+            <a href="combinadorFilho.html"> Proximo exercicio - Combinador Filho</a>
+            </li>
+            <li>
+             <a title="original" href="index.html">Lista de exercicios</a>
+           </li>
+        </ul>
+     </div>
+
   </body>
 </html>
